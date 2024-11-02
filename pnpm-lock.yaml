@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@pulumi/aws':
-        specifier: ^6.57.0
+        specifier: ^6.0.0
         version: 6.57.0
       '@pulumi/awsx':
         specifier: ^2.0.2

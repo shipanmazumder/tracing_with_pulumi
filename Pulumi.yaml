@@ -1,4 +1,4 @@
-name: pulumi-aws-setup
+name: tracing_with_pulumi
 runtime:
   name: nodejs
   options:
