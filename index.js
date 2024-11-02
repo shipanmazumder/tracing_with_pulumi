@@ -88,7 +88,7 @@ const keyPair = new aws.ec2.KeyPair("my-key-pair", {
 // Create two EC2 instances
 const createEC2Instance = (name, az) => {
     return new aws.ec2.Instance(name, {
-        instanceType: "t3.small",
+        instanceType: "t2.micro",
         ami: "ami-0866a3c8686eaeeba",  // Change with your ami ID
         subnetId: publicSubnet.id,
         associatePublicIpAddress: true,
